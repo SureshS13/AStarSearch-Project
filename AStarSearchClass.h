@@ -42,60 +42,6 @@ private:
         { INT_MAX, INT_MAX, INT_MAX, 1.4, INT_MAX, INT_MAX, INT_MAX, INT_MAX }
     };
 
-    
-    /*
-     // All vector code
-     
-     int nodesAmt = 8;
-     int START = 0;
-     int GOAL = nodesAmt - 1;
-
-     vector<char> labels = {'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G'};
-     vector<double> heuristicCosts = {10, 10, 6, 1.4, 9, 7, 2, 0};
-     vector<bool> closed;
-     vector<bool> open;
-
-     double distanceMatrix[8][8] =
-     {
-         { INT_MAX, 3, INT_MAX, INT_MAX, 4, INT_MAX, INT_MAX, INT_MAX         },
-         { 3, INT_MAX, 4, INT_MAX, 5, INT_MAX, INT_MAX, INT_MAX               },
-         { INT_MAX, 4, INT_MAX, 4, INT_MAX, 5, INT_MAX, INT_MAX               },
-         { INT_MAX, INT_MAX, 4, INT_MAX, INT_MAX, INT_MAX, 5, 1.4             },
-         { 4, 5, INT_MAX, INT_MAX, INT_MAX, 2, INT_MAX, INT_MAX               },
-         { INT_MAX, INT_MAX, 5, INT_MAX, 2, INT_MAX, 4, INT_MAX               },
-         { INT_MAX, INT_MAX, INT_MAX, 5, INT_MAX, 4, INT_MAX, INT_MAX         },
-         { INT_MAX, INT_MAX, INT_MAX, 1.4, INT_MAX, INT_MAX, INT_MAX, INT_MAX }
-     };
-     */
-    
-    /*
-     // ORIGINAL CODE
-     
-     int nodesAmt = 8;
-
-     int START = 0;
-     int GOAL = nodesAmt - 1;
-
-     char labels[8] = {'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G'};
-
-     double distanceMatrix[8][8] =
-     {
-         { INT_MAX, 3, INT_MAX, INT_MAX, 4, INT_MAX, INT_MAX, INT_MAX         },
-         { 3, INT_MAX, 4, INT_MAX, 5, INT_MAX, INT_MAX, INT_MAX               },
-         { INT_MAX, 4, INT_MAX, 4, INT_MAX, 5, INT_MAX, INT_MAX               },
-         { INT_MAX, INT_MAX, 4, INT_MAX, INT_MAX, INT_MAX, 5, 1.4             },
-         { 4, 5, INT_MAX, INT_MAX, INT_MAX, 2, INT_MAX, INT_MAX               },
-         { INT_MAX, INT_MAX, 5, INT_MAX, 2, INT_MAX, 4, INT_MAX               },
-         { INT_MAX, INT_MAX, INT_MAX, 5, INT_MAX, 4, INT_MAX, INT_MAX         },
-         { INT_MAX, INT_MAX, INT_MAX, 1.4, INT_MAX, INT_MAX, INT_MAX, INT_MAX }
-     };
-
-     double heuristicCosts[8] = {10, 10, 6, 1.4, 9, 7, 2, 0};
-
-     vector<bool> closed;
-     vector<bool> open;
-     */
-
 public:
     
     ASTAR()
