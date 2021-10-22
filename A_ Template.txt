@@ -1,0 +1,5 @@
+<Insert Total Number Of Nodes Here>
+<Insert All Labels Here, Separated By One Space>
+<Insert All Heuristic Costs Here, Separated By One Space>
+<Insert Distance Matrix Here. Columns Are Separated By A Comma And A Space, and Rows Are Separated By Lines (If Confused, Check The Two Examples That I Have Provided)>
+
